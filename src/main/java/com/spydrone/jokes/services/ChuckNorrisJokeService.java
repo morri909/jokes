@@ -8,8 +8,8 @@ public class ChuckNorrisJokeService implements JokeService {
 
 	private final ChuckNorrisQuotes chuckNorrisQuotes;
 
-	public ChuckNorrisJokeService() {
-		this.chuckNorrisQuotes = new ChuckNorrisQuotes();
+	public ChuckNorrisJokeService(ChuckNorrisQuotes chuckNorrisQuotes) {
+		this.chuckNorrisQuotes = chuckNorrisQuotes;
 	}
 
 	@Override
